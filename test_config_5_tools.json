@@ -1,0 +1,34 @@
+{
+  "mcpServers": {
+    "weather": {
+      "command": "python",
+      "args": [
+        "./tests/tools/get_weather.py"
+      ]
+    },
+    "calculator": {
+      "command": "python",
+      "args": [
+        "./tests/tools/calculator.py"
+      ]
+    },
+    "aider": {
+      "command": "python",
+      "args": [
+        "./tests/tools/calculator.py"
+      ]
+    },
+    "filesystem": {
+      "command": "python",
+      "args": [
+        "./tests/tools/get_weather.py"
+      ]
+    },
+    "database": {
+      "command": "python",
+      "args": [
+        "./tests/tools/calculator.py"
+      ]
+    }
+  }
+}
